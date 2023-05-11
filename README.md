@@ -11,22 +11,21 @@
 
 ## Description
 
-My text editor is a single page application that runs in the browser and meets PWA criteria. The app works online and offline. I use `idb`, which is a lightweight wrapper around the indexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
+This is a single page application that runs in the browser and meets PWA criteria. This features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline and you can download the app by simply click 'install' button. I use `idb`, which is a lightweight wrapper around the indexedDB API. 
 
-Live deployed link: https://jatetexteditorapp.herokuapp.com/
+Live deployed link: https://wajhtexteditor.herokuapp.com/
 
-<img width="926" alt="Screenshot 2023-01-08 at 8 18 17 PM" src="https://user-images.githubusercontent.com/108949883/211250486-5f123485-3593-4621-9c66-79c5074a6dc1.png">
+![Demonstration of the finished Module 19 Challenge with a manifest file in the browser.](./Assets/JATE1.png)
 
-<img width="921" alt="Screenshot 2023-01-08 at 8 18 30 PM" src="https://user-images.githubusercontent.com/108949883/211250494-d5440a35-c123-4c10-8609-21ba0ad1dd28.png">
-<a name="instruction"/>
+![Demonstration of the finished Module 19 Challenge with a service worker in the browser.](./Assets/PWA2.png)
+
+
+![Demonstration of the finished Module 19 Challenge with a IndexedDB storage named 'jate' in the browser.](./Assets/PWA3.png)
 
 ## Instruction
 
-To download app, run to command: ```git clone https://github.com/fuuko08/PWA-Text-Editor.git```
 
-Run the command ```npm install``` to install packages
-
-To start the app, run the command: ```npm run start:dev```
+To start the app, run the command: ```npm run start```
 
 <a name="usage"/>
 
